@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-html {
-  block-size: 100%;
-}
-
 body {
   font-family: var(--font-family);
   font-size: 18px;
