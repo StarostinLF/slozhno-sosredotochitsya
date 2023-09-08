@@ -65,6 +65,10 @@ a {
   color: var(--article-title-color);
 }
 
+.article-item__title_regular {
+  font-weight: 400;
+}
+
 .article-item__text-link {
   border: transparent;
   text-shadow: 3px 3px 0px var(--link-shadow);
@@ -90,13 +94,14 @@ a {
   height: 25px;
   border-left: 1px solid var(--corners-color);
   border-bottom: 1px solid var(--corners-color);
-  left: 0;
+  left: 20px;
   bottom: 20px;
 }
 
 @media (width < 768px) and (width >= 375px) {
   .decorated-zone::before {
-    bottom: 16px;
+    left: 10px;
+    bottom: 18px;
   }
 }
 
@@ -107,20 +112,17 @@ a {
   height: 25px;
   border-right: 1px solid var(--corners-color);
   border-top: 1px solid var(--corners-color);
-  right: 0;
+  right: 20px;
   top: 20px;
 }
 
 @media (width < 768px) and (width >= 375px) {
   .decorated-zone::after {
-    top: 12px;
+    right: 10px;
+    top: 14px;
   }
 }
 
 .title-decor {
   background: var(--title-decor);
-}
-
-.font-weight_regular {
-  font-weight: 400;
 }
