@@ -1,8 +1,10 @@
 @charset "UTF-8";
+
 /*
   Переменные для проекта
   и их переопределение под различные устройства
 */
+
 :root {
   --font-family: "IBM Plex mono";
 }
@@ -24,6 +26,7 @@
     --rec-color: var(--title-shadow);
   }
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     --main-text-color: #353430;
