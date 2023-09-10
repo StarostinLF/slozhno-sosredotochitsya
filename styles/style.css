@@ -4,7 +4,7 @@
 
 .page {
   --transition-duration: 0.25s;
-  padding: 0 20px;
+
   background: var(--background-image) no-repeat top center,
     var(--background-color);
   background-size: auto 768px;
@@ -13,16 +13,17 @@
   transition-duration: var(--transition-duration);
 }
 
-@media (width < 768px) and (width >= 375px) {
-  .page {
-    padding: 0 10px;
-  }
-}
-
 /* Header */
 
 .header {
+  padding: 0 20px;
   position: relative;
+}
+
+@media (width < 768px) and (width >= 375px) {
+  .header {
+    padding: 0 10px;
+  }
 }
 
 .header__rec {
@@ -180,6 +181,7 @@
 /* Main content */
 
 .main {
+  padding: 0 20px;
   margin: 60px 0;
   flex: 1 1 auto;
   display: flex;
@@ -189,6 +191,7 @@
 
 @media (width < 768px) and (width >= 375px) {
   .main {
+    padding: 0 10px;
     margin: 34px 0;
     gap: 50px;
   }
@@ -406,7 +409,7 @@
 /* Footer */
 
 .footer {
-  padding: 282px 0;
+  padding: 282px 20px;
   position: relative;
   text-align: center;
 }
@@ -432,12 +435,13 @@
 
 @media (width < 1024px) and (width >= 768px) {
   .footer {
-    padding: 434px 0;
+    padding: 434px 20px;
   }
 }
 
 @media (width < 768px) and (width >= 375px) {
   .footer {
-    padding: 262px 0;
+    margin-top: 40px;
+    padding: 262px 10px;
   }
 }

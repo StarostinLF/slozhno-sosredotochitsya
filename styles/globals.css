@@ -61,13 +61,14 @@ a {
   height: 25px;
   border-left: 1px solid var(--corners-color);
   border-bottom: 1px solid var(--corners-color);
-  left: 0;
+  left: 20px;
   bottom: 20px;
 }
 
 @media (width < 768px) and (width >= 375px) {
   .decorated-zone::before {
-    bottom: 13px;
+    left: 10px;
+    bottom: 17px;
   }
 }
 
@@ -78,13 +79,14 @@ a {
   height: 25px;
   border-right: 1px solid var(--corners-color);
   border-top: 1px solid var(--corners-color);
-  right: 0;
+  right: 20px;
   top: 20px;
 }
 
 @media (width < 768px) and (width >= 375px) {
   .decorated-zone::after {
-    top: 15px;
+    right: 10px;
+    top: 10px;
   }
 }
 
