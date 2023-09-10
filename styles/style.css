@@ -209,7 +209,7 @@
   color: var(--section-title-color);
 }
 
-.section__title:last-of-type {
+.dark-title {
   color: var(--article-title-color);
 }
 
