@@ -31,13 +31,13 @@
   color: var(--rec-color);
   text-transform: uppercase;
   top: 21px;
-  right: 29px;
+  right: 49px;
 }
 
 @media (width < 768px) and (width >= 375px) {
   .header__rec {
     top: 11px;
-    right: 28px;
+    right: 39px;
   }
 }
 
@@ -167,6 +167,7 @@
 }
 
 .header__subtitle {
+  color: var(--article-title-color);
   align-self: flex-end;
   font-weight: 700;
   width: 50%;
@@ -208,6 +209,10 @@
   color: var(--section-title-color);
 }
 
+.section__title:last-of-type {
+  color: var(--article-title-color);
+}
+
 @media (width < 1024px) and (width >= 768px) {
   .section__title {
     width: 35%;
@@ -229,6 +234,7 @@
 .section__article-list-title {
   font-size: 18px;
   font-weight: 700;
+  color: var(--article-title-color);
 }
 
 .section__article-item {
