@@ -122,7 +122,7 @@
   font-weight: 700;
   margin-left: -2%;
   color: var(--title-color);
-  text-shadow: 4px 4px 0px var(--text-shadow);
+  text-shadow: 4px 4px 0px var(--title-shadow);
 }
 
 .header__title-container {
@@ -424,7 +424,7 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   color: var(--title-color);
-  text-shadow: 2px 2px 0px var(--text-shadow);
+  text-shadow: 2px 2px 0px var(--title-shadow);
 }
 
 @media (width < 1024px) and (width >= 375px) {
